@@ -28,7 +28,7 @@ export const LetterDetail = (props: Props) => {
       <div
         className={cn(
           "flex flex-col items-center visible gap-2 mt-6 opacity-100 text-pretty transition-opacity md:flex-row",
-          { "opacity-0 invisible h-7": !hint }
+          { "opacity-0 invisible h-auto md:h7": !hint }
         )}
       >
         <IoBulb
