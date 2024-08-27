@@ -63,7 +63,7 @@ export default function LetterPage({ params }: Props) {
         <Link
           href={`/alphabet/${prevLetter ?? "#"}`}
           className={cn("underline underline-offset-4", {
-            "opacity-40 pointer-events-none": !prevLetter,
+            "opacity-20 pointer-events-none": !prevLetter,
           })}
         >
           Anterior
@@ -72,7 +72,7 @@ export default function LetterPage({ params }: Props) {
         <Link
           href={`/alphabet/${nextLetter ?? "#"}`}
           className={cn("underline underline-offset-4", {
-            "opacity-40 pointer-events-none": !nextLetter,
+            "opacity-20 pointer-events-none": !nextLetter,
           })}
         >
           Siguiente
