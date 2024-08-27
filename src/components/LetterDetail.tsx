@@ -13,7 +13,7 @@ export const LetterDetail = (props: Props) => {
     <article className="flex flex-col items-center">
       <p className="font-bold text-lg text-center uppercase">Letra</p>
 
-      <ruby style={{ rubyPosition: "under" }}>
+      <ruby style={{ rubyPosition: "under" }} className="ruby">
         <h1 className="text-center text-9xl font-extrabold uppercase">
           {letter}
         </h1>
